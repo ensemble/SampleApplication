@@ -31,4 +31,4 @@ Additionally you might be interested in:
 
 In development
 ---
-The system is in heavy development and no guarantee is given the applications are stable. Please test 
+The system is in heavy development and no guarantee is given the applications are stable. Please test it and report to me if you have any findings: jurian@soflomo.com.
