@@ -9,7 +9,6 @@ use Blog\Service\Article as ArticleService;
 
 class Module implements
     Feature\AutoloaderProviderInterface,
-     Feature\ServiceProviderInterface,
     Feature\ConfigProviderInterface
 {
     public function getAutoloaderConfig()
@@ -22,21 +21,6 @@ class Module implements
                 'namespaces' => array(
                     __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
                 ),
-            ),
-        );
-    }
-    
-    public function getServiceConfiguration()
-    {
-        return array(
-            'factories' => array(
-                'Blog\Service\Article' => function ($sm) {
-                    $di = $sm->get('Di');
-                    $em = $di->get('doctrine_em');
-                    
-                    $repository = $em->getRepository('Blog\Entity\Article');
-                    $service    = new ArticleService($repository);
-                },
             ),
         );
     }
