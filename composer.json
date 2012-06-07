@@ -1,0 +1,28 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/juriansluiman/Bacon"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/juriansluiman/SlmCmfNavigation"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/juriansluiman/SlmCmfNavigationI18n"
+        },
+        {
+            "type": "vcs",
+            "url": "http://github.com/juriansluiman/SlmCmfI18n"
+        }
+    ],
+    "require": {
+        "slm-cmf/kernel": "dev-master",
+        "slm-cmf/admin": "dev-master",
+        "slm-cmf/navigation": "dev-master",
+        "slm-cmf/i18n": "dev-master",
+        "slm-cmf/navigation-i18n": "dev-master",
+        "dasprid/bacon": "dev-feature/composer"
+    }
+}

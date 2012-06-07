@@ -1,0 +1,19 @@
+<?
+/**
+ * @var Blog\Entity\Article $article 
+ */
+?>
+
+<article>
+    <?
+    $slug = $this->slug($article->getTitle());
+    $url  = $this->url('/article', array(
+        'id'    => $article->getId(),
+        'title' => $slug
+    ));
+    ?>
+    
+    <h1><a href="<?=$url?>"><?= $article->getTitle()?></a></h1>
+    <?= $article->getLead()?>
+    <?= $article->getBody()?>
+</article>

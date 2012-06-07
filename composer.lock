@@ -1,0 +1,121 @@
+{
+    "hash": "2ef1f2cd7ef901ceacf1f0f2461beb8d",
+    "packages": [
+        {
+            "package": "dasprid/bacon",
+            "version": "dev-feature/composer",
+            "source-reference": "5146dde054c4fdf43d54ba61155954c6b667a4b7"
+        },
+        {
+            "package": "doctrine/DoctrineModule",
+            "version": "dev-master",
+            "source-reference": "75c8b178d6f34ceddd2d622f148671ce5d9ccb2b"
+        },
+        {
+            "package": "doctrine/DoctrineORMModule",
+            "version": "dev-master",
+            "source-reference": "d71f07c62df65b8f03b086a8abf0a2493341284b"
+        },
+        {
+            "package": "doctrine/common",
+            "version": "2.2.x-dev",
+            "source-reference": "1e0aa60d109c630d19543d999f12e2852ef8f932"
+        },
+        {
+            "package": "doctrine/data-fixtures",
+            "version": "dev-master",
+            "source-reference": "d233d05437c1a10034867f22069b4bb0f7dc96b6"
+        },
+        {
+            "package": "doctrine/dbal",
+            "version": "2.2.0-RC3"
+        },
+        {
+            "package": "doctrine/migrations",
+            "version": "dev-master",
+            "source-reference": "fe98141b1e460baf5ab52f9139e1ae238101b28b"
+        },
+        {
+            "package": "doctrine/orm",
+            "version": "2.2.x-dev",
+            "source-reference": "5f66c65c9a8d984899903b54215d0249a45b92d6"
+        },
+        {
+            "package": "gedmo/doctrine-extensions",
+            "version": "dev-master",
+            "source-reference": "21d34feefedcfbd26016a0a395ed134677f71fcf"
+        },
+        {
+            "package": "slm-cmf/admin",
+            "version": "dev-master",
+            "source-reference": "7afea6f01032ebf9ced037966049223111548f4b"
+        },
+        {
+            "package": "slm-cmf/i18n",
+            "version": "dev-master",
+            "source-reference": "2e1c6af0d7c721136416ac47103c441e31b4b15e"
+        },
+        {
+            "package": "slm-cmf/kernel",
+            "version": "dev-master",
+            "source-reference": "a829d49c8c34df25bdce9405773b2c5d50aaf4b4"
+        },
+        {
+            "package": "slm-cmf/navigation",
+            "version": "dev-master",
+            "source-reference": "2a4bb62192dd3889bfdd5cf42dbf1ea93014d6c3"
+        },
+        {
+            "package": "slm-cmf/navigation-i18n",
+            "version": "dev-master",
+            "source-reference": "a246d52461de9a43a8f89a7fd4cf9ba09b802282"
+        },
+        {
+            "package": "slm-cmf/utils",
+            "version": "dev-master",
+            "source-reference": "94725eff3fef3253fa0a9327530c9c68f2b2be84"
+        },
+        {
+            "package": "symfony/console",
+            "version": "2.0.x-dev",
+            "source-reference": "v2.0.14"
+        },
+        {
+            "package": "symfony/yaml",
+            "version": "2.0.x-dev",
+            "source-reference": "7eb70264627e696aa7d2825a88d7cef053e8a302"
+        },
+        {
+            "package": "zendframework/zendframework",
+            "version": "dev-master",
+            "source-reference": "88c4b4cc6325209d8eb4f8b8e2d45f459bb5679d",
+            "alias-pretty-version": "2.0.x-dev",
+            "alias-version": "2.0.9999999.9999999-dev"
+        },
+        {
+            "package": "zendframework/zendframework",
+            "version": "dev-master",
+            "source-reference": "53705360c27a3301f8a85059253bacfa2072718d",
+            "alias-pretty-version": "2.0.x-dev",
+            "alias-version": "2.0.9999999.9999999-dev"
+        },
+        {
+            "package": "zendframework/zendframework",
+            "version": "dev-master",
+            "source-reference": "88c4b4cc6325209d8eb4f8b8e2d45f459bb5679d"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "slm-cmf/kernel": 20,
+        "slm-cmf/admin": 20,
+        "slm-cmf/navigation": 20,
+        "slm-cmf/i18n": 20,
+        "slm-cmf/navigation-i18n": 20,
+        "dasprid/bacon": 20
+    }
+}
