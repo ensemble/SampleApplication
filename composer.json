@@ -23,6 +23,10 @@
         "slm-cmf/navigation": "dev-master",
         "slm-cmf/i18n": "dev-master",
         "slm-cmf/navigation-i18n": "dev-master",
+        
+        "zf-commons/zfc-user": "dev-master",
+        "zf-commons/zfc-user-doctrine-orm": "dev-master",
+        
         "dasprid/bacon": "dev-feature/composer"
     }
 }
