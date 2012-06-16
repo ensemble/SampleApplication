@@ -1,0 +1,11 @@
+<article>
+    <?= $this->form()->openTag($form)?>
+    <dl>
+        <dt><?= $this->formLabel($form->get('content'))?></dt>
+        <dd><?= $this->formElement($form->get('content'))?></dd>
+        
+        <dt><?= $this->formLabel($form->get('submit'))?></dt>
+        <dd><?= $this->formElement($form->get('submit'))?></dd>
+    </dl>
+    <?= $this->form()->closeTag($form)?>
+</article>
