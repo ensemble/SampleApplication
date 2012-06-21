@@ -1,10 +1,5 @@
 <?php
 return array(
-    'controller' => array(
-        'classes' => array(
-            'index' => 'Application\Controller\IndexController'
-        ),
-    ),
     'view_manager' => array(
         'display_not_found_reason' => true,
         'display_exceptions'       => true,
