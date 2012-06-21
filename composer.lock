@@ -43,19 +43,19 @@
         {
             "package": "gedmo/doctrine-extensions",
             "version": "dev-master",
+            "source-reference": "5d9bbdb7768d6be2dd3b91ab433ac0c1fe2c586d"
+        },
+        {
+            "package": "gedmo/doctrine-extensions",
+            "version": "dev-master",
             "source-reference": "5d9bbdb7768d6be2dd3b91ab433ac0c1fe2c586d",
             "alias-pretty-version": "2.3.x-dev",
             "alias-version": "2.3.9999999.9999999-dev"
         },
         {
-            "package": "gedmo/doctrine-extensions",
-            "version": "dev-master",
-            "source-reference": "5d9bbdb7768d6be2dd3b91ab433ac0c1fe2c586d"
-        },
-        {
             "package": "slm-cmf/admin",
             "version": "dev-master",
-            "source-reference": "7afea6f01032ebf9ced037966049223111548f4b"
+            "source-reference": "2f82e814b052a32b775051621c8b72035d2ce594"
         },
         {
             "package": "slm-cmf/i18n",
@@ -65,12 +65,12 @@
         {
             "package": "slm-cmf/kernel",
             "version": "dev-master",
-            "source-reference": "a5301053bd5213e3c0e385c35915d7d58c993675"
+            "source-reference": "b8f233efcc17df2823c80cb9638e3e4f510fa00f"
         },
         {
             "package": "slm-cmf/kernel-doctrine-orm",
             "version": "dev-master",
-            "source-reference": "b3a769b7ca1f38af7ad00e5b8b34f80ea953d381"
+            "source-reference": "08e0a83ceeccfb4919b5a5ec79f6ba7a75130b0b"
         },
         {
             "package": "slm-cmf/utils",
@@ -96,13 +96,6 @@
             "package": "zendframework/zendframework",
             "version": "dev-master",
             "source-reference": "47723f076d91ccfd57a03fb71b1182c09aaa3538",
-            "alias-pretty-version": "2.0.x-dev",
-            "alias-version": "2.0.9999999.9999999-dev"
-        },
-        {
-            "package": "zendframework/zendframework",
-            "version": "dev-master",
-            "source-reference": "c1c7ab3679ac6233d9a1d9416f6f9167181b07a1",
             "alias-pretty-version": "2.0.x-dev",
             "alias-version": "2.0.9999999.9999999-dev"
         },
