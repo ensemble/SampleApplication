@@ -1,5 +1,5 @@
 {
-    "hash": "60cb62488cea0fb6b2936215cbaddc24",
+    "hash": "f35388733d590f519e1c75d991afa5be",
     "packages": [
         {
             "package": "dasprid/bacon",
@@ -9,12 +9,12 @@
         {
             "package": "doctrine/DoctrineModule",
             "version": "dev-master",
-            "source-reference": "75c8b178d6f34ceddd2d622f148671ce5d9ccb2b"
+            "source-reference": "3b6998e949a8ef0348ed15fb45da44116074dcd2"
         },
         {
             "package": "doctrine/DoctrineORMModule",
             "version": "dev-master",
-            "source-reference": "d71f07c62df65b8f03b086a8abf0a2493341284b"
+            "source-reference": "eddf538d717e54a0380e3834a2fc7e29282d1aaf"
         },
         {
             "package": "doctrine/common",
@@ -43,7 +43,14 @@
         {
             "package": "gedmo/doctrine-extensions",
             "version": "dev-master",
-            "source-reference": "21d34feefedcfbd26016a0a395ed134677f71fcf"
+            "source-reference": "5d9bbdb7768d6be2dd3b91ab433ac0c1fe2c586d",
+            "alias-pretty-version": "2.3.x-dev",
+            "alias-version": "2.3.9999999.9999999-dev"
+        },
+        {
+            "package": "gedmo/doctrine-extensions",
+            "version": "dev-master",
+            "source-reference": "5d9bbdb7768d6be2dd3b91ab433ac0c1fe2c586d"
         },
         {
             "package": "slm-cmf/admin",
@@ -58,22 +65,17 @@
         {
             "package": "slm-cmf/kernel",
             "version": "dev-master",
-            "source-reference": "a829d49c8c34df25bdce9405773b2c5d50aaf4b4"
+            "source-reference": "a5301053bd5213e3c0e385c35915d7d58c993675"
         },
         {
-            "package": "slm-cmf/navigation",
+            "package": "slm-cmf/kernel-doctrine-orm",
             "version": "dev-master",
-            "source-reference": "2a4bb62192dd3889bfdd5cf42dbf1ea93014d6c3"
-        },
-        {
-            "package": "slm-cmf/navigation-i18n",
-            "version": "dev-master",
-            "source-reference": "a246d52461de9a43a8f89a7fd4cf9ba09b802282"
+            "source-reference": "b3a769b7ca1f38af7ad00e5b8b34f80ea953d381"
         },
         {
             "package": "slm-cmf/utils",
             "version": "dev-master",
-            "source-reference": "94725eff3fef3253fa0a9327530c9c68f2b2be84"
+            "source-reference": "3bcbead3107654fa0b355fe8f8f92995ff60ca1d"
         },
         {
             "package": "symfony/console",
@@ -83,17 +85,17 @@
         {
             "package": "symfony/yaml",
             "version": "2.0.x-dev",
-            "source-reference": "7eb70264627e696aa7d2825a88d7cef053e8a302"
+            "source-reference": "c123857e83b279a4a1300ef27cc8cc25d8ea84f9"
         },
         {
             "package": "zendframework/zendframework",
             "version": "dev-master",
-            "source-reference": "c1c7ab3679ac6233d9a1d9416f6f9167181b07a1"
+            "source-reference": "47723f076d91ccfd57a03fb71b1182c09aaa3538"
         },
         {
             "package": "zendframework/zendframework",
             "version": "dev-master",
-            "source-reference": "e94475db9afbcf6d77a5beccdb6e6bb6541f6f1d",
+            "source-reference": "47723f076d91ccfd57a03fb71b1182c09aaa3538",
             "alias-pretty-version": "2.0.x-dev",
             "alias-version": "2.0.9999999.9999999-dev"
         },
@@ -107,17 +109,17 @@
         {
             "package": "zf-commons/zfc-base",
             "version": "dev-master",
-            "source-reference": "89ffa4edf11499a46c0c00073c1e8433a92504d8"
+            "source-reference": "db78bc1de52680f3855c0acf9dde90f5fc6d4f5c"
         },
         {
             "package": "zf-commons/zfc-user",
             "version": "dev-master",
-            "source-reference": "7ddfdbed13de1fa44073c43d0791ac1eb791253c"
+            "source-reference": "dc26512d1624908e581b8810a9af362fb3347e23"
         },
         {
             "package": "zf-commons/zfc-user-doctrine-orm",
             "version": "dev-master",
-            "source-reference": "c36373ef93035a192c3739602028567207f010de"
+            "source-reference": "64a09b0c8e66368f0faf642efbf8264d87e33e67"
         }
     ],
     "packages-dev": null,
@@ -127,10 +129,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "slm-cmf/kernel": 20,
+        "slm-cmf/kernel-doctrine-orm": 20,
         "slm-cmf/admin": 20,
-        "slm-cmf/navigation": 20,
         "slm-cmf/i18n": 20,
-        "slm-cmf/navigation-i18n": 20,
         "zf-commons/zfc-user": 20,
         "zf-commons/zfc-user-doctrine-orm": 20,
         "dasprid/bacon": 20
