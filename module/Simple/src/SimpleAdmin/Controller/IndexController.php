@@ -33,7 +33,7 @@ class IndexController extends ActionController
         if ($request->isPost()) {
             $content = $request->post()->get('content');
             $text->setContent($content);
-            $this->em->flush();
+            $this->getEntityManager()->flush();
         }
         
         return new ViewModel(array(
@@ -45,7 +45,7 @@ class IndexController extends ActionController
     protected function getEntityManager()
     {
         if (null === $this->em) {
-            $this->em = $this->getServiceLocator('Doctrine\ORM\EntityManager');
+            $this->em = $this->getServiceLocator()->get('Doctrine\ORM\EntityManager');
         }
         
         return $this->em;
