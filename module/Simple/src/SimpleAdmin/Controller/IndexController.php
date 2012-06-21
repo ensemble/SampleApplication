@@ -14,18 +14,13 @@ class IndexController extends ActionController
      * @var EntityManager
      */
     protected $em;
-    
-    public function setEntityManager(EntityManager $em)
-    {
-        $this->em = $em;
-    }
-    
+
     public function indexAction()
     {
         $page = $this->event->getRouteMatch()->getParam('page');
         $id   = $page->getModuleId();
         
-        $text = $this->em->find('Simple\Entity\Text', $id);
+        $text = $this->getEntityManager()->find('Simple\Entity\Text', $id);
         $form = new TextForm;
         $form->populateValues(array(
             'id'      => $text->getId(),
@@ -45,5 +40,14 @@ class IndexController extends ActionController
             'form' => $form,
             'text' => $text
         ));
+    }
+    
+    protected function getEntityManager()
+    {
+        if (null === $this->em) {
+            $this->em = $this->getServiceLocator('Doctrine\ORM\EntityManager');
+        }
+        
+        return $this->em;
     }
 }

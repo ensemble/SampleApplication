@@ -15,15 +15,10 @@ class IndexController extends ActionController
      */
     protected $repository;
     
-    public function setEntityManager(EntityManager $em)
-    {
-        $this->repository = $em->getRepository('Simple\Entity\Text');
-    }
-    
     public function indexAction()
     {
         $id   = $this->getTextId();
-        $text = $this->repository->find($id);
+        $text = $this->getRepository()->find($id);
         
         return new ViewModel(array('text' => $text));
     }
@@ -31,5 +26,15 @@ class IndexController extends ActionController
     protected function getTextId()
     {
         return $this->getEvent()->getParam('page', null)->getModuleId();
+    }
+    
+    protected function getRepository()
+    {
+        if (null === $this->repository) {
+            $em = $this->getServiceLocator()->get('Doctrine\ORM\EntityManager');
+            $this->repository = $em->getRepository('Simple\Entity\Text');
+        }
+        
+        return $this->repository;
     }
 }

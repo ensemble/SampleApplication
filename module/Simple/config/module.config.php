@@ -30,30 +30,15 @@ return array(
         ),
     ),
     
-    'di' => array(
-        'instance' => array(
-            'Simple\Controller\IndexController' => array(
-                'parameters' => array(
-                    'em' => 'doctrine_em'
-                ),
+    'doctrine' => array(
+        'driver' => array(
+            'simple' => array(
+                'paths' =>  array(__DIR__ . '/../src/Simple/Entity')
             ),
-            'SimpleAdmin\Controller\IndexController' => array(
-                'parameters' => array(
-                    'em' => 'doctrine_em'
-                ),
-            ),
-            
-            // Set Doctrine annotations in driver chain
-            'orm_driver_chain' => array(
-                'parameters' => array(
-                    'drivers' => array(
-                        'simple' => array(
-                            'class'     => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
-                            'namespace' => 'Simple\Entity',
-                            'paths'     => array(__DIR__ . '/../src/Simple/Entity')
-                        ),
-                    ),
-                ),
+            'orm_default' => array(
+                'drivers' => array(
+                    'Simple\Entity' => 'simple'
+                ),      
             ),
         ),
     ),
