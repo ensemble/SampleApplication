@@ -24,7 +24,7 @@
         {
             "package": "doctrine/data-fixtures",
             "version": "dev-master",
-            "source-reference": "d233d05437c1a10034867f22069b4bb0f7dc96b6"
+            "source-reference": "1f0b8be5db0b53681f80c99324c94e21e1efe39a"
         },
         {
             "package": "doctrine/dbal",
@@ -43,7 +43,14 @@
         {
             "package": "gedmo/doctrine-extensions",
             "version": "dev-master",
-            "source-reference": "5d9bbdb7768d6be2dd3b91ab433ac0c1fe2c586d"
+            "source-reference": "9ed48efd2868652f9020c681519d176688a0e87f",
+            "alias-pretty-version": "2.3.x-dev",
+            "alias-version": "2.3.9999999.9999999-dev"
+        },
+        {
+            "package": "gedmo/doctrine-extensions",
+            "version": "dev-master",
+            "source-reference": "9ed48efd2868652f9020c681519d176688a0e87f"
         },
         {
             "package": "gedmo/doctrine-extensions",
@@ -55,7 +62,7 @@
         {
             "package": "slm-cmf/admin",
             "version": "dev-master",
-            "source-reference": "2f82e814b052a32b775051621c8b72035d2ce594"
+            "source-reference": "da9850d71cf8ba9ce892ea242ce04caccc46cf8f"
         },
         {
             "package": "slm-cmf/i18n",
@@ -65,12 +72,12 @@
         {
             "package": "slm-cmf/kernel",
             "version": "dev-master",
-            "source-reference": "b8f233efcc17df2823c80cb9638e3e4f510fa00f"
+            "source-reference": "2c58299557d20ea4356919835556b8ac82bddf55"
         },
         {
             "package": "slm-cmf/kernel-doctrine-orm",
             "version": "dev-master",
-            "source-reference": "08e0a83ceeccfb4919b5a5ec79f6ba7a75130b0b"
+            "source-reference": "b238d2c19a1890bba168b046c337b8c2689bd0ab"
         },
         {
             "package": "slm-cmf/utils",
@@ -80,7 +87,7 @@
         {
             "package": "symfony/console",
             "version": "2.0.x-dev",
-            "source-reference": "v2.0.14"
+            "source-reference": "v2.0.15"
         },
         {
             "package": "symfony/yaml",
@@ -90,7 +97,14 @@
         {
             "package": "zendframework/zendframework",
             "version": "dev-master",
-            "source-reference": "47723f076d91ccfd57a03fb71b1182c09aaa3538"
+            "source-reference": "7cbdfd9c9948595f9eee3058c154b426dbfa5fc0"
+        },
+        {
+            "package": "zendframework/zendframework",
+            "version": "dev-master",
+            "source-reference": "7cbdfd9c9948595f9eee3058c154b426dbfa5fc0",
+            "alias-pretty-version": "2.0.x-dev",
+            "alias-version": "2.0.9999999.9999999-dev"
         },
         {
             "package": "zendframework/zendframework",
