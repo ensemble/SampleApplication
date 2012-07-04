@@ -10,7 +10,7 @@ return array(
             ),
         ),
     ),
-    
+
     'cmf_admin_routes' => array(
         'simple' => array(
             'type'     => 'literal',
@@ -23,13 +23,13 @@ return array(
             )
         ),
     ),
-    
+
     'view_manager' => array(
         'template_path_stack' => array(
             __DIR__ . '/../view'
         ),
     ),
-    
+
     'doctrine' => array(
         'driver' => array(
             'simple' => array(
@@ -38,7 +38,7 @@ return array(
             'orm_default' => array(
                 'drivers' => array(
                     'Simple\Entity' => 'simple'
-                ),      
+                ),
             ),
         ),
     ),

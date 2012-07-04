@@ -1,4 +1,4 @@
-<?php 
+<?php
 $this->headTitle()->setSeparator(' - ')
                   ->setAutoEscape(false);
 
@@ -13,10 +13,11 @@ $this->headLink(array(
             'href' => $basePath . '/images/favicon.ico',
         ));
 
-$this->headScript()->appendFile('http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js');
+$this->headScript()->appendFile('http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
+                   ->appendFile('http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js');
 
 // HTML5 shim, for IE6-8 support of HTML elements
-$this->headScript()->appendFile($basePath . '/js/html5.js', 'text/javascript', 
+$this->headScript()->appendFile($basePath . '/js/html5.js', 'text/javascript',
     array('conditional' => 'lt IE9',));
 
 echo $this->doctype();
@@ -25,13 +26,13 @@ echo $this->doctype();
 <html lang="nl">
   <head>
     <meta charset="utf-8">
-    <?php echo $this->headTitle('ZF2 Skeleton Application') ?>
+    <?php echo $this->headTitle() ?>
 
     <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0') ?>
 
     <!-- Le styles -->
     <?php echo $this->headLink() ?>
-    
+
     <!-- Scripts -->
     <?php echo $this->headScript() ?>
 
@@ -48,20 +49,23 @@ echo $this->doctype();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="/">Skeleton Application</a>
-          <div class="nav-collapse">
+          <a class="brand" href="/">Sample Application</a>
+
+          <div class="nav-collapse pull-right">
             <ul class="nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/admin">Admin</a></li>
+              <li class="admin"><a href="<?= $this->url('admin')?>"><i class="icon-cog icon-white"></i>&nbsp;Admin</a></li>
             </ul>
+          </div>
+
+          <div class="nav-collapse">
+              <?= $this->navigation()->menu()->setUlClass('nav')
+                                             ->setMaxDepth(0)?>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
 
     <div class="container">
-
       <?php echo $this->content; ?>
 
       <hr>

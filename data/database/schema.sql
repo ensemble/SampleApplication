@@ -7,12 +7,13 @@ CREATE TABLE IF NOT EXISTS `page` (
   `lvl` int(11) NOT NULL,
   `rgt` int(11) NOT NULL,
   `root` int(11) DEFAULT NULL,
+  `order` int(11) DEFAULT NULL,
   `route` varchar(255) NOT NULL,
   `module` varchar(255) NOT NULL,
   `moduleId` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `IDX_2074E575727ACA70` (`parent_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 CREATE TABLE IF NOT EXISTS `page_metadata` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -24,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `page_metadata` (
   `keywords` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `page_id` (`page_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 CREATE TABLE IF NOT EXISTS `simple_text` (
   `id` int(11) NOT NULL AUTO_INCREMENT,

@@ -12,7 +12,7 @@ class Module
         $lib       = 'vendor/gedmo/doctrine-extensions/lib/';
         AnnotationRegistry::registerAutoloadNamespace($namespace, $lib);
     }
-    
+
     public function getConfig()
     {
         return include __DIR__ . '/config/module.config.php';

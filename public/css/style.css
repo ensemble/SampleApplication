@@ -3,8 +3,11 @@ body {
     padding-bottom: 40px;
 }
 
-.zf-green {
-    color: #68b604; 
+.ensemble {
+    font-family: Georgia, serif;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .btn-success {
@@ -31,7 +34,10 @@ body {
 }
 
 div.container a.brand {
-    background: url("../images/zf2-logo.png") no-repeat scroll 0 10px transparent;
+    background: url("../images/ensemble-logo.png") no-repeat scroll 0 5px transparent;
     margin-left: 0;
     padding: 8px 20px 12px 40px;
 }
+ .nav > li.admin > a{
+    color: white;
+ }

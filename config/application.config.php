@@ -7,13 +7,12 @@ return array(
         'SlmCmfKernelDoctrineOrm',
         'SlmCmfUtils',
         'SlmCmfAdmin',
+        'Welcome',
         'Simple',
-        //'Blog',
-        //'Bacon',
-        //'Twitter',
+        'Sitemap',
         'Application',
     ),
-    'module_listener_options' => array( 
+    'module_listener_options' => array(
         'config_glob_paths'    => array(
             'config/autoload/{,*.}{global,local}.php',
         ),
@@ -21,6 +20,7 @@ return array(
         'cache_dir'            => 'data/cache',
         'module_paths' => array(
             './module',
+            './moduledev',
             './vendor',
         ),
     ),
