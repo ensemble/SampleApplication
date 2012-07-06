@@ -3,37 +3,14 @@
         {
             "type": "vcs",
             "url": "http://github.com/juriansluiman/Bacon"
-        },
-        {
-            "type": "vcs",
-            "url": "http://github.com/juriansluiman/SlmCmfKernel"
-        },
-        {
-            "type": "vcs",
-            "url": "http://github.com/juriansluiman/SlmCmfKernelDoctrineOrm"
-        },
-        {
-            "type": "vcs",
-            "url": "http://github.com/juriansluiman/SlmCmfAdmin"
-        },
-        {
-            "type": "vcs",
-            "url": "http://github.com/juriansluiman/SlmCmfUtils"
-        },
-        {
-            "type": "vcs",
-            "url": "http://github.com/juriansluiman/SlmCmfI18n"
         }
     ],
     "require": {
-        "slm-cmf/kernel": "dev-master",
-        "slm-cmf/kernel-doctrine-orm": "dev-master",
-        "slm-cmf/admin": "dev-master",
-        "slm-cmf/i18n": "dev-master",
-        
-        "zf-commons/zfc-user": "dev-master",
-        "zf-commons/zfc-user-doctrine-orm": "dev-master",
-        
+        "ensemble/kernel": "dev-master",
+        "ensemble/kernel-doctrine-orm": "dev-master",
+        "ensemble/utils": "dev-master",
+        "ensemble/admin": "dev-master",
+
         "dasprid/bacon": "dev-feature/composer"
     }
 }
