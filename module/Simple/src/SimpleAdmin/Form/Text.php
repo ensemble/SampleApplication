@@ -56,19 +56,20 @@ class Text extends Form
 
         $this->add(array(
             'name' => 'content',
+            'options' => array(
+                'label' => 'Text content',
+            ),
             'attributes' => array(
-                'label' => 'Content',
                 'type'  => 'textarea',
-                'cols'  => '500',
-                'rows'  => '20',
             ),
         ));
 
         $this->add(array(
             'name' => 'submit',
             'attributes' => array(
-                'label' => 'Save',
-                'type' => 'submit'
+                'class' => 'btn',
+                'type'  => 'submit',
+                'value' => 'Save contents'
             ),
         ));
     }
