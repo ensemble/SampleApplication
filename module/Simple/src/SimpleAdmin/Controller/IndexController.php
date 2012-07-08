@@ -42,13 +42,13 @@
 
 namespace SimpleAdmin\Controller;
 
-use Zend\Mvc\Controller\ActionController;
+use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
 use Doctrine\ORM\EntityManager;
 use SimpleAdmin\Form\Text as TextForm;
 
-class IndexController extends ActionController
+class IndexController extends AbstractActionController
 {
     /**
      * @var EntityManager
@@ -68,10 +68,10 @@ class IndexController extends ActionController
         ));
 
         $request = $this->getRequest();
-        $form->setData($request->post());
+        $form->setData($request->getPost());
 
         if ($request->isPost()) {
-            $content = $request->post()->get('content');
+            $content = $request->getPost()->get('content');
             $text->setContent($content);
             $this->getEntityManager()->flush();
         }

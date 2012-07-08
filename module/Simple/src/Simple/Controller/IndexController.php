@@ -42,13 +42,13 @@
 
 namespace Simple\Controller;
 
-use Zend\Mvc\Controller\ActionController;
+use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
 
 use Doctrine\ORM\EntityRepository;
 use Doctrine\ORM\EntityManager;
 
-class IndexController extends ActionController
+class IndexController extends AbstractActionController
 {
     /**
      * @var EntityRepository
