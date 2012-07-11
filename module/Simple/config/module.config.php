@@ -41,7 +41,7 @@
  */
 
 return array(
-    'cmf_routes' => array(
+    'cmf_routes'       => array(
         'simple' => array(
             'options' => array(
                 'defaults' => array(
@@ -64,17 +64,22 @@ return array(
             )
         ),
     ),
-
-    'view_manager' => array(
+    'controllers'      => array(
+        'invokables' => array(
+            'Simple\Controller\IndexController' => 'Simple\Controller\IndexController',
+            'SimpleAdmin\Controller\IndexController' => 'SimpleAdmin\Controller\IndexController',
+        ),
+    ),
+    'view_manager'     => array(
         'template_path_stack' => array(
             __DIR__ . '/../view'
         ),
     ),
 
-    'doctrine' => array(
+    'doctrine'         => array(
         'driver' => array(
-            'simple' => array(
-                'paths' =>  array(__DIR__ . '/../src/Simple/Entity')
+            'simple'      => array(
+                'paths' => array(__DIR__ . '/../src/Simple/Entity')
             ),
             'orm_default' => array(
                 'drivers' => array(
