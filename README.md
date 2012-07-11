@@ -1,29 +1,40 @@
-SlmCmf
+Ensemble Sample Application
 ===
-SlmCmf is a content management framework based on the php Zend Framework 2. It is its goal to have the easy usage of Zend Framework 2 modules combined with a powerful kernel to hook the modules onto a specific page in the sitemap of the website.
+Ensemble is a content management framework based on the php Zend Framework 2. The goal is to benefit from the reusable Zend Framework 2 modules combined with a powerful kernel to hook modules onto a specific page in the sitemap of the website.
 
 Introduction
 ---
-SlmCmf is a Content Management System to provide easy hooks for a module to fit into a Zend Framework 2 based application. The CMF is a selection of various modules to handle page building, route parsing, navigation building and provides an admin interface to manage the modules. SlmCmf is called a CMF and not CMF (content management system) as it does not provide the usual content management system tools, but rather a low level handling of pages inside the application.
+Ensemble is a cmf, making it easy to create cms based applications. The cmf is a selection of various modules to handle page building, route parsing, navigation building and it provides an admin interface to manage the various content modules. Ensemble is called a cmf and not cms (content management system) as it does not provide the usual content management system tools, but rather helps with a low level handling of pages inside the application.
 
-The fundament of SlmCmf is a page model, where every page is filled with content from one module. Pages are hierarchical stored in a database and processed into a route stack by the kernel. Meta data from pages is processed into a navigation tree for menus, breadcrumbs and so on. Inside the `docs` directory of this repository several files explain more about the fundaments of SlmCmf.
+The fundament of ensemble is a page model, where every page is filled with content from one module. Pages are hierarchical stored in a database and processed into a route stack by the kernel. Meta data from pages is processed into a navigation tree for menus, breadcrumbs and so on. Ensemble has a repository on Gihub with documentation. At this moment, the best place to start is the [wiki](https://github.com/ensemble/Documentation/wiki).
 
 Installation
 ---
-The CMF works with Composer as dependency manager. To install this SlmCmf example application, clone this repository to a local machine and install dependencies with composer. Load the SQL statements into your database and modify the configuration files in `config/autoload` to your needs. This should be enough to get the system up and running.
+Ensemble works with Composer as dependency manager. To install this ensemble example application, clone this repository to a local machine and install dependencies with composer. Load the SQL statements into your database and modify the configuration files in `config/autoload` to your needs. This should be enough to get the system up and running.
+
+This comes down to the following steps:
+
+```
+cd path/to/projects
+git clone git://github.com/ensemble/SampleApplication.git
+curl -s http://getcomposer.org/installer | php
+php composer.phar install
+```
+
+Then look into the `config/autoload` directory and modify those files to your needs. Then grab the contents of `data/database/schema.sql` and `data/database/fixtures.sql` and execute those statements for the database you have created. And do not forget to create a (virtual) host for this app ;-)
 
 Core modules
 ---
-The CMF is built modular and to start the application, there is a minumum list of modules required to run the application:
+The cmf is built modular and to start the application, there is a minumum list of modules required to run the application:
 
-1. SlmCmfKernel: supplies the page model and parsers for routes [work in progress, usable]
-2. SlmCmfUtils: basic utility classes from CMF usage [work in progress, usable]
-3. SlmCmfAdmin: bare admin control panel [work in progress, not usable]
-4. SlmCmfAcl: access control list based on ZfcAcl [not started yet]
+1. EnsembleKernel: supplies the page model and parsers for routes [work in progress, usable]
+2. EnsembleUtils: basic utility classes from CMF usage [work in progress, usable]
+3. EnsembleAdmin: bare admin control panel [work in progress, little usable]
+4. EnsembleAcl: access control list based on ZfcAcl [not started yet]
 
 Additionally you might be interested in:
 
-1. SlmCmfI18n: provides i18n for SlmCmf including locale detection and translation helpers
+1. EnsembleI18n: provides i18n for ensemble including locale detection and translation helpers [not started yet]
 
 In development
 ---
