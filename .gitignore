@@ -1,3 +1,4 @@
 /moduledev
 /vendor
 composer.phar
+composer.lock
