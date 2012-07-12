@@ -5,12 +5,12 @@ return array(
             'options' => array(
                 'defaults' => array(
                     'controller' => 'Welcome\Controller\IndexController',
-                    'action'     => 'index'
+                    'action' => 'index'
                 ),
             ),
         ),
     ),
-    'controllers'      => array(
+    'controllers' => array(
         'invokables' => array(
             'Welcome\Controller\IndexController' => 'Welcome\Controller\IndexController',
         ),

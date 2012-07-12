@@ -5,10 +5,10 @@ return array(
             'sitemap' => array(
                 'type' => 'literal',
                 'options' => array(
-                    'route'    => '/sitemap',
+                    'route' => '/sitemap',
                     'defaults' => array(
                         'controller' => 'Sitemap\Controller\SitemapController',
-                        'action'     => 'index',
+                        'action' => 'index',
                     ),
                 ),
                 'may_terminate' => true,
@@ -16,9 +16,9 @@ return array(
                     'xml' => array(
                         'type' => 'literal',
                         'options' => array(
-                            'route'    => '/xml',
+                            'route' => '/xml',
                             'defaults' => array(
-                                'action'     => 'xml',
+                                'action' => 'xml',
                             ),
                         ),
                     ),
@@ -26,7 +26,11 @@ return array(
             ),
         ),
     ),
-    
+    'controllers' => array(
+        'invokables' => array(
+            'Sitemap\Controller\SitemapController' => 'Sitemap\Controller\SitemapController',
+        ),
+    ),
     'view_manager' => array(
         'template_path_stack' => array(
             __DIR__ . '/../view'
