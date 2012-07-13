@@ -58,26 +58,20 @@
         {
             "package": "doctrine/orm",
             "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/orm",
-            "version": "dev-master",
             "source-reference": "e0455b5550a27f5a6231c1f3b093092bb4c97bab",
             "commit-date": "1342078181"
         },
         {
             "package": "ensemble/admin",
             "version": "dev-master",
-            "source-reference": "883342dd25144e035eebc9f7d59b3b91765c2bb4",
-            "commit-date": "1341754913"
+            "source-reference": "86af0bf313fe4b5aa7c3a0e87ca3de110616d1cf",
+            "commit-date": "1342195512"
         },
         {
             "package": "ensemble/kernel",
             "version": "dev-master",
-            "source-reference": "05d9fd85e64bf2f0f03f1be35e536b831c281212",
-            "commit-date": "1341754376"
+            "source-reference": "8e631fb4f28b14c0b74bbf9bbb9097bb0524dd15",
+            "commit-date": "1342173636"
         },
         {
             "package": "ensemble/kernel-doctrine-orm",
@@ -90,12 +84,6 @@
             "version": "dev-master",
             "source-reference": "0794c319cd093f63b575585c1779857da94f1315",
             "commit-date": "1341867373"
-        },
-        {
-            "package": "gedmo/doctrine-extensions",
-            "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
         },
         {
             "package": "gedmo/doctrine-extensions",
@@ -118,12 +106,6 @@
         {
             "package": "symfony/yaml",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/yaml",
-            "version": "dev-master",
             "source-reference": "711eb7f1982184478995c064a132fd70b019f174",
             "commit-date": "1341838460"
         },
@@ -136,8 +118,8 @@
         {
             "package": "zendframework/zendframework",
             "version": "dev-master",
-            "source-reference": "ce20c30c16d58286a5eb6966854b7dd621b04cee",
-            "commit-date": "1342127007"
+            "source-reference": "ec5decab9263d950341b935ad59a8952456a60ea",
+            "commit-date": "1342202291"
         }
     ],
     "packages-dev": null,
