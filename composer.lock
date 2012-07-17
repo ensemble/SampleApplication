@@ -1,29 +1,11 @@
 {
-    "hash": "5f657a334cf80b39b5f74c39d5db28ff",
+    "hash": "a3fd3ca7bce722bbb4468b824e47eeae",
     "packages": [
         {
-            "package": "dasprid/bacon",
-            "version": "dev-feature/composer",
-            "source-reference": "5146dde054c4fdf43d54ba61155954c6b667a4b7",
-            "commit-date": "1338713462"
-        },
-        {
             "package": "doctrine/common",
-            "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/common",
-            "version": "dev-master",
-            "alias-pretty-version": "2.4.x-dev",
-            "alias-version": "2.4.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/common",
-            "version": "dev-master",
-            "source-reference": "91a2875447a38a638cebbd679fa2081a84d5f7af",
-            "commit-date": "1342444390"
+            "version": "2.3.x-dev",
+            "source-reference": "15b04ec520ccded3dc0eba65b12a69ff1931360f",
+            "commit-date": "1342443556"
         },
         {
             "package": "doctrine/data-fixtures",
@@ -33,21 +15,9 @@
         },
         {
             "package": "doctrine/dbal",
-            "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/dbal",
-            "version": "dev-master",
-            "alias-pretty-version": "2.4.x-dev",
-            "alias-version": "2.4.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/dbal",
-            "version": "dev-master",
-            "source-reference": "84cba60d3d780cba3a504826c06f4a0db05e7180",
-            "commit-date": "1342459670"
+            "version": "2.3.x-dev",
+            "source-reference": "659de9a189e3316174d4edb6ee0b941230453794",
+            "commit-date": "1342444525"
         },
         {
             "package": "doctrine/doctrine-module",
@@ -69,15 +39,9 @@
         },
         {
             "package": "doctrine/orm",
-            "version": "dev-master",
-            "alias-pretty-version": "2.4.x-dev",
-            "alias-version": "2.4.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/orm",
-            "version": "dev-master",
-            "source-reference": "34ac207b3c05a8587edc0cd4ef7f6a570b673640",
-            "commit-date": "1342445120"
+            "version": "2.3.x-dev",
+            "source-reference": "c8fcd3f8a5c4106b4d7de4f222427eafcebfbd5b",
+            "commit-date": "1342445044"
         },
         {
             "package": "ensemble/admin",
@@ -106,12 +70,6 @@
         {
             "package": "gedmo/doctrine-extensions",
             "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
-        },
-        {
-            "package": "gedmo/doctrine-extensions",
-            "version": "dev-master",
             "source-reference": "98656cc6041b45388df51c961d1d18d9428b7fed",
             "commit-date": "1342536579"
         },
@@ -130,20 +88,8 @@
         {
             "package": "symfony/yaml",
             "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
-        },
-        {
-            "package": "symfony/yaml",
-            "version": "dev-master",
             "source-reference": "v2.1.0-BETA3",
             "commit-date": "1342347231"
-        },
-        {
-            "package": "zendframework/zendframework",
-            "version": "dev-master",
-            "alias-pretty-version": "2.0.x-dev",
-            "alias-version": "2.0.9999999.9999999-dev"
         },
         {
             "package": "zendframework/zendframework",
@@ -161,7 +107,6 @@
         "ensemble/kernel": 20,
         "ensemble/kernel-doctrine-orm": 20,
         "ensemble/utils": 20,
-        "ensemble/admin": 20,
-        "dasprid/bacon": 20
+        "ensemble/admin": 20
     }
 }

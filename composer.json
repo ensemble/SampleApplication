@@ -4,6 +4,6 @@
         "ensemble/kernel": "dev-master",
         "ensemble/kernel-doctrine-orm": "dev-master",
         "ensemble/utils": "dev-master",
-        "ensemble/admin": "dev-master",
+        "ensemble/admin": "dev-master"
     }
 }
