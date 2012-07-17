@@ -1,16 +1,9 @@
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "http://github.com/juriansluiman/Bacon"
-        }
-    ],
     "minimum-stability": "dev",
     "require": {
         "ensemble/kernel": "dev-master",
         "ensemble/kernel-doctrine-orm": "dev-master",
         "ensemble/utils": "dev-master",
         "ensemble/admin": "dev-master",
-        "dasprid/bacon": "dev-feature/composer"
     }
 }
