@@ -9,6 +9,7 @@ return array(
         'Ensemble\Admin',
         'Welcome',
         'Simple',
+        'Shop',
         'Sitemap',
         'Application',
     ),

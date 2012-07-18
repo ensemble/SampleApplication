@@ -1,0 +1,12 @@
+<article>
+	<ul>
+    <? foreach($days as $day):?>
+    	<? $date = $day->getDate()?>
+    	<? $url  = $this->url('/product', array(
+    		'date' => $date->format(Shop\Entity\Day::FORMAT)
+		))?>
+
+    	<li><a href="<?= $url?>"><?= $day->getTitle()?></a></li>
+	<? endforeach?>
+	</ul>
+</article>

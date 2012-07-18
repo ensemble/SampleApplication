@@ -1,0 +1,20 @@
+<article>
+	<form action="<?=$this->url('/cart/add')?>" method="post">
+		<ul>
+		<? foreach ($tickets as $ticket):?>
+			<? $id = $ticket->getId()?>
+			<li>
+				<label for="ticket-<?=$id?>"><?= $ticket->getTitle()?></label>
+				<input type="text" name="<?= $id?>" id="ticket-<?=$id?>" value="1">
+			</li>
+		<? endforeach?>
+		</ul>
+
+		<? if($programme):?>
+			<label for="programme"><?= $programme->getTitle()?></label>
+			<input type="text" name="<?= $id?>" id="programme">
+		<? endif?>
+
+	<button type="submit">Buy now!</button>
+	</form>
+</article>
