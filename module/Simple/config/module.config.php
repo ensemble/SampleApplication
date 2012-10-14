@@ -79,6 +79,7 @@ return array(
     'doctrine' => array(
         'driver' => array(
             'simple' => array(
+                'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
                 'paths' => array(__DIR__ . '/../src/Simple/Entity')
             ),
             'orm_default' => array(
