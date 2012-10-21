@@ -16,11 +16,11 @@ return array(
         'cache'       => false,  // Enable if you want to cache routes
         'cache_key'   => 'cache'
     ),
-    
+
     'twitter' => array(
         'username' => '' // Fill in your username here
     ),
-    
+
     'di' => array(
         'instance' => array(
             'alias' => array(
@@ -29,4 +29,3 @@ return array(
         ),
     ),
 );
-

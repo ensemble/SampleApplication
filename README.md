@@ -14,14 +14,29 @@ Ensemble works with Composer as dependency manager. To install this ensemble exa
 
 This comes down to the following steps:
 
+1. Grab the sample application and install the dependencies
+
 ```
 cd path/to/projects
-git clone git://github.com/ensemble/SampleApplication.git
+git clone git://github.com/ensemble/SampleApplication.git; cd SampleApplication
 curl -s http://getcomposer.org/installer | php
 php composer.phar install
 ```
 
-Then look into the `config/autoload` directory and modify those files to your needs. Then grab the contents of `data/database/schema.sql` and `data/database/fixtures.sql` and execute those statements for the database you have created. And do not forget to create a (virtual) host for this app ;-)
+2. Configure the sample application
+Look into the `config/autoload` directory and modify the files in this directory to your needs.
+Do not forget to copy `doctrine_orm.local.php.dist` to `doctrine_orm.local.php` and change its contents to fit your needs.
+
+3. Import the database schemas
+Grab the contents of `data/database/schema.sql` and `data/database/fixtures.sql` and execute those statements for the database you want to use
+
+```sql
+mysql -u your_username -p your_database < fixtures.sql
+mysql -u your_username -p your_database < schema.sql
+```
+
+4. Making it accessible
+Don't forget to create a (virtual) host for this application ;-)
 
 Core modules
 ---
@@ -38,4 +53,6 @@ Additionally you might be interested in:
 
 In development
 ---
-The system is in heavy development and no guarantee is given the applications are stable. Please test it and report to me if you have any findings: jurian@soflomo.com. You can find me often on Freenode IRC in the channel of the Zend Framework 2 development: #zftalk.2
+The system is in heavy development and no guarantee is given the applications are stable.
+Please test it and report to me if you have any findings: jurian@soflomo.com.
+You can find me often on Freenode IRC in the channel of the Zend Framework 2 development: #zftalk.2

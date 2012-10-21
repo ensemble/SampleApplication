@@ -34,13 +34,13 @@
 
           <div class="nav-collapse pull-right">
             <ul class="nav">
-              <li class="admin"><a href="<?= $this->url('zfcadmin')?>"><i class="icon-cog icon-white"></i>&nbsp;Admin</a></li>
+              <li class="admin"><a href="<?php echo $this->url('zfcadmin'); ?>"><i class="icon-cog icon-white"></i>&nbsp;Admin</a></li>
             </ul>
           </div>
 
           <div class="nav-collapse">
-              <?= $this->navigation()->menu()->setUlClass('nav')
-                                             ->setMaxDepth(0)?>
+              <?php echo $this->navigation()->menu()->setUlClass('nav')
+                                             ->setMaxDepth(0); ?>
           </div><!--/.nav-collapse -->
         </div>
       </div>
