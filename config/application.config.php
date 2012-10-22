@@ -1,12 +1,13 @@
 <?php
 return array(
     'modules' => array(
+        'ZfcAdmin',
         'DoctrineModule',
         'DoctrineORMModule',
         'Ensemble\Kernel',
         'Ensemble\KernelDoctrineOrm',
         'Ensemble\Utils',
-        'ZfcAdmin',
+        'Ensemble\Admin',
         'ZfcBase',
         'ZfcUser',
         'ZfcUserDoctrineORM',
