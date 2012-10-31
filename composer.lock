@@ -7,12 +7,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/bjyoungblood/BjyAuthorize.git",
-                "reference": "372e72fa729bb07457fc531a0fd4ee2d16c3e59e"
+                "reference": "6c692f2a99fb409f6bafc2732b3489f289566616"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/bjyoungblood/BjyAuthorize/zipball/372e72fa729bb07457fc531a0fd4ee2d16c3e59e",
-                "reference": "372e72fa729bb07457fc531a0fd4ee2d16c3e59e",
+                "url": "https://github.com/bjyoungblood/BjyAuthorize/zipball/6c692f2a99fb409f6bafc2732b3489f289566616",
+                "reference": "6c692f2a99fb409f6bafc2732b3489f289566616",
                 "shasum": ""
             },
             "require": {
@@ -24,7 +24,7 @@
             "suggest": {
                 "zf-commons/zfc-user-doctrine-orm": "dev-master"
             },
-            "time": "1349894811",
+            "time": "1351537959",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -56,18 +56,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common",
-                "reference": "150cb23135aa338b8f425fe40fa450ed372c8085"
+                "reference": "20cb487a5809a42f03020c89fa09eb4458de827f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/common/zipball/150cb23135aa338b8f425fe40fa450ed372c8085",
-                "reference": "150cb23135aa338b8f425fe40fa450ed372c8085",
+                "url": "https://github.com/doctrine/common/zipball/20cb487a5809a42f03020c89fa09eb4458de827f",
+                "reference": "20cb487a5809a42f03020c89fa09eb4458de827f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
-            "time": "1349626836",
+            "time": "1350491397",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -121,7 +121,7 @@
         },
         {
             "name": "doctrine/data-fixtures",
-            "version": "dev-master",
+            "version": "v1.0.0-ALPHA3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
@@ -136,7 +136,7 @@
             "require": {
                 "php": ">=5.3.2"
             },
-            "time": "1348136794",
+            "time": "2012-09-20 03:26:34",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -166,19 +166,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal",
-                "reference": "d26680ac2e69ed7620f14f15cfeb246be62a9ac3"
+                "reference": "8c06b7ce92c487cda63ac6c78ee073f3fb0e9232"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/dbal/zipball/d26680ac2e69ed7620f14f15cfeb246be62a9ac3",
-                "reference": "d26680ac2e69ed7620f14f15cfeb246be62a9ac3",
+                "url": "https://github.com/doctrine/dbal/zipball/8c06b7ce92c487cda63ac6c78ee073f3fb0e9232",
+                "reference": "8c06b7ce92c487cda63ac6c78ee073f3fb0e9232",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "doctrine/common": ">=2.3-dev,<2.5-dev"
             },
-            "time": "1350071680",
+            "time": "1350322364",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -229,12 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/doctrine/DoctrineModule.git",
-                "reference": "de1265a79526fb03f53c029c24de4f896da60366"
+                "reference": "ceef726e2acba3feadfe8b308a1ec4cb2b85cbe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/DoctrineModule/zipball/de1265a79526fb03f53c029c24de4f896da60366",
-                "reference": "de1265a79526fb03f53c029c24de4f896da60366",
+                "url": "https://github.com/doctrine/DoctrineModule/zipball/ceef726e2acba3feadfe8b308a1ec4cb2b85cbe8",
+                "reference": "ceef726e2acba3feadfe8b308a1ec4cb2b85cbe8",
                 "shasum": ""
             },
             "require": {
@@ -244,7 +244,7 @@
                 "zendframework/zendframework": "2.*",
                 "doctrine/data-fixtures": "1.*"
             },
-            "time": "1349981860",
+            "time": "1350998063",
             "bin": [
                 "bin/doctrine-module"
             ],
@@ -267,7 +267,8 @@
                 {
                     "name": "Marco Pivetta",
                     "email": "ocramius@gmail.com",
-                    "homepage": "http://marco-pivetta.com/"
+                    "homepage": "http://marco-pivetta.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Evan Coury",
@@ -277,6 +278,11 @@
                 {
                     "name": "Guilherme Blanco",
                     "email": "guilhermeblanco@hotmail.com"
+                },
+                {
+                    "name": "Michaël Gallego",
+                    "email": "mic.gallego@gmail.com",
+                    "homepage": "http://www.michaelgallego.fr"
                 }
             ],
             "description": "Zend Framework 2 Module that provides Doctrine basic functionality required for ORM and ODM modules",
@@ -289,25 +295,25 @@
         },
         {
             "name": "doctrine/doctrine-orm-module",
-            "version": "dev-master",
+            "version": "0.5.3",
             "source": {
                 "type": "git",
                 "url": "git://github.com/doctrine/DoctrineORMModule.git",
-                "reference": "737e8bbced5c4d8e70298744e160c1ed65738a29"
+                "reference": "0.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/DoctrineORMModule/zipball/737e8bbced5c4d8e70298744e160c1ed65738a29",
-                "reference": "737e8bbced5c4d8e70298744e160c1ed65738a29",
+                "url": "https://github.com/doctrine/DoctrineORMModule/zipball/0.5.3",
+                "reference": "0.5.3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "doctrine/migrations": "dev-master",
+                "doctrine/doctrine-module": ">=0.5.1",
                 "doctrine/orm": ">=2.3-dev,<2.5-dev",
                 "doctrine/dbal": ">=2.3-dev,<2.5-dev",
-                "zendframework/zendframework": "2.*",
-                "doctrine/doctrine-module": "0.*"
+                "doctrine/migrations": "1.*",
+                "zendframework/zendframework": "2.*"
             },
             "require-dev": {
                 "zendframework/zend-developer-tools": "dev-master"
@@ -315,7 +321,7 @@
             "suggest": {
                 "zendframework/zend-developer-tools": "zend-developer-tools if you want to profile operations executed by the ORM during development"
             },
-            "time": "1350208059",
+            "time": "2012-10-16 13:00:33",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -336,7 +342,8 @@
                 {
                     "name": "Marco Pivetta",
                     "email": "ocramius@gmail.com",
-                    "homepage": "http://marco-pivetta.com/"
+                    "homepage": "http://marco-pivetta.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Evan Coury",
@@ -359,7 +366,7 @@
         },
         {
             "name": "doctrine/migrations",
-            "version": "dev-master",
+            "version": "v1.0-ALPHA1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations",
@@ -382,7 +389,7 @@
             "suggest": {
                 "symfony/console": "to run the migration from the console"
             },
-            "time": "1349435713",
+            "time": "2012-10-05 04:15:13",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -417,12 +424,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/doctrine/doctrine2.git",
-                "reference": "56e96793c0046a66cfe95ec65bf5eed5ad094de0"
+                "reference": "98c5b34f2b40fd04cf891052514f01f513077405"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/doctrine2/zipball/56e96793c0046a66cfe95ec65bf5eed5ad094de0",
-                "reference": "56e96793c0046a66cfe95ec65bf5eed5ad094de0",
+                "url": "https://github.com/doctrine/doctrine2/zipball/98c5b34f2b40fd04cf891052514f01f513077405",
+                "reference": "98c5b34f2b40fd04cf891052514f01f513077405",
                 "shasum": ""
             },
             "require": {
@@ -434,7 +441,7 @@
             "suggest": {
                 "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
             },
-            "time": "1350071259",
+            "time": "1351360877",
             "bin": [
                 "bin/doctrine",
                 "bin/doctrine.php"
@@ -566,21 +573,21 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/ensemble/EnsembleKernelDoctrineOrm.git",
-                "reference": "d14982b38bd8ab16557e9ed4941c1c848d002e9e"
+                "reference": "8353aec651b5916f87fe58f9cc988161ea6d7974"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/ensemble/EnsembleKernelDoctrineOrm/zipball/d14982b38bd8ab16557e9ed4941c1c848d002e9e",
-                "reference": "d14982b38bd8ab16557e9ed4941c1c848d002e9e",
+                "url": "https://github.com/ensemble/EnsembleKernelDoctrineOrm/zipball/8353aec651b5916f87fe58f9cc988161ea6d7974",
+                "reference": "8353aec651b5916f87fe58f9cc988161ea6d7974",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "doctrine/doctrine-orm-module": "dev-master",
                 "gedmo/doctrine-extensions": "dev-master",
-                "ensemble/kernel": "dev-master"
+                "ensemble/kernel": "dev-master",
+                "doctrine/doctrine-orm-module": "0.*"
             },
-            "time": "1349877499",
+            "time": "1351713420",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -596,9 +603,9 @@
             ],
             "authors": [
                 {
-                    "name": "Jurian Sluiman ",
+                    "name": "Jurian Sluiman",
                     "email": "jurian@juriansluiman.nl",
-                    "homepage": "http://juriansluiman.nl/en/"
+                    "homepage": "http://juriansluiman.nl/"
                 }
             ],
             "description": "Doctrine ORM adapter for kernel of the ensemble content management system",
@@ -644,12 +651,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/l3pp4rd/DoctrineExtensions.git",
-                "reference": "117f14e0f8fd069d679ca0f84fa05c781cca3119"
+                "reference": "27dbd6a7eb776248b60fb5a4e0210fb082e45755"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/l3pp4rd/DoctrineExtensions/zipball/117f14e0f8fd069d679ca0f84fa05c781cca3119",
-                "reference": "117f14e0f8fd069d679ca0f84fa05c781cca3119",
+                "url": "https://github.com/l3pp4rd/DoctrineExtensions/zipball/27dbd6a7eb776248b60fb5a4e0210fb082e45755",
+                "reference": "27dbd6a7eb776248b60fb5a4e0210fb082e45755",
                 "shasum": ""
             },
             "require": {
@@ -660,7 +667,7 @@
                 "doctrine/orm": ">=2.1",
                 "doctrine/mongodb-odm": "*"
             },
-            "time": "1349888959",
+            "time": "1351622050",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -705,18 +712,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console",
-                "reference": "4a74ab0170585fd25d925ff94582f68b0037f016"
+                "reference": "d5e62dff72532a192561eac2b6ea1082dfb5de2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Console/zipball/4a74ab0170585fd25d925ff94582f68b0037f016",
-                "reference": "4a74ab0170585fd25d925ff94582f68b0037f016",
+                "url": "https://github.com/symfony/Console/zipball/d5e62dff72532a192561eac2b6ea1082dfb5de2d",
+                "reference": "d5e62dff72532a192561eac2b6ea1082dfb5de2d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1350206314",
+            "time": "1351466734",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -751,12 +758,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/zendframework/zf2.git",
-                "reference": "508ed58b866a7394976e1318be287d092a4ce022"
+                "reference": "7b5909f706d83feed1b9227a586dd7fc93937620"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/zendframework/zf2/zipball/508ed58b866a7394976e1318be287d092a4ce022",
-                "reference": "508ed58b866a7394976e1318be287d092a4ce022",
+                "url": "https://github.com/zendframework/zf2/zipball/7b5909f706d83feed1b9227a586dd7fc93937620",
+                "reference": "7b5909f706d83feed1b9227a586dd7fc93937620",
                 "shasum": ""
             },
             "require": {
@@ -822,7 +829,7 @@
                 "zendframework/zendpdf": "ZendPdf for creating PDF representations of barcodes",
                 "pecl-weakref": "Implementation of weak references for Zend\\Stdlib\\CallbackHandler"
             },
-            "time": "1350060558",
+            "time": "1351711592",
             "bin": [
                 "bin/classmap_generator.php"
             ],
@@ -855,12 +862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ZF-Commons/ZfcAdmin",
-                "reference": "b9206d6f93a7664940bf37b6eb7b62789871f159"
+                "reference": "a42d266149d9444d27528e3c3253295d80d59bf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/ZF-Commons/ZfcAdmin/zipball/b9206d6f93a7664940bf37b6eb7b62789871f159",
-                "reference": "b9206d6f93a7664940bf37b6eb7b62789871f159",
+                "url": "https://github.com/ZF-Commons/ZfcAdmin/zipball/a42d266149d9444d27528e3c3253295d80d59bf6",
+                "reference": "a42d266149d9444d27528e3c3253295d80d59bf6",
                 "shasum": ""
             },
             "require": {
@@ -870,7 +877,7 @@
             "suggest": {
                 "bjyoungblood/bjy-authorize": "Access control to protect ZfcAdmin against unauthorized users"
             },
-            "time": "1347912067",
+            "time": "1351583931",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -907,19 +914,19 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/ZF-Commons/ZfcBase.git",
-                "reference": "5057eb22bdc5a97e4b23716079485bfa92e44054"
+                "reference": "38990ad5f51002dd271ab676b90a3d59728190e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/ZF-Commons/ZfcBase/zipball/5057eb22bdc5a97e4b23716079485bfa92e44054",
-                "reference": "5057eb22bdc5a97e4b23716079485bfa92e44054",
+                "url": "https://github.com/ZF-Commons/ZfcBase/zipball/38990ad5f51002dd271ab676b90a3d59728190e2",
+                "reference": "38990ad5f51002dd271ab676b90a3d59728190e2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "zendframework/zendframework": "2.*"
             },
-            "time": "1347633346",
+            "time": "1351100548",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -954,12 +961,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/ZF-Commons/ZfcUser.git",
-                "reference": "53aa3a48c198c3e7e8e6f0261a9e88c7bc1d9cd6"
+                "reference": "a2065932cf09774544d5ad02ae57474ce2e4a914"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/ZF-Commons/ZfcUser/zipball/53aa3a48c198c3e7e8e6f0261a9e88c7bc1d9cd6",
-                "reference": "53aa3a48c198c3e7e8e6f0261a9e88c7bc1d9cd6",
+                "url": "https://github.com/ZF-Commons/ZfcUser/zipball/a2065932cf09774544d5ad02ae57474ce2e4a914",
+                "reference": "a2065932cf09774544d5ad02ae57474ce2e4a914",
                 "shasum": ""
             },
             "require": {
@@ -967,7 +974,7 @@
                 "zf-commons/zfc-base": "dev-master",
                 "zendframework/zendframework": "2.*"
             },
-            "time": "1349264201",
+            "time": "1351458751",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -1002,22 +1009,22 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/ZF-Commons/ZfcUserDoctrineORM.git",
-                "reference": "71017a46732916432d986b208267661ad2157d5d"
+                "reference": "9007c8b29ed38763ffea433e30b31e5ee22645f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/ZF-Commons/ZfcUserDoctrineORM/zipball/71017a46732916432d986b208267661ad2157d5d",
-                "reference": "71017a46732916432d986b208267661ad2157d5d",
+                "url": "https://github.com/ZF-Commons/ZfcUserDoctrineORM/zipball/9007c8b29ed38763ffea433e30b31e5ee22645f2",
+                "reference": "9007c8b29ed38763ffea433e30b31e5ee22645f2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "zf-commons/zfc-base": "dev-master",
                 "zf-commons/zfc-user": "dev-master",
-                "doctrine/doctrine-orm-module": "dev-master",
-                "zendframework/zendframework": "2.*"
+                "zendframework/zendframework": "2.*",
+                "doctrine/doctrine-orm-module": "0.*"
             },
-            "time": "1346925644",
+            "time": "1351713523",
             "type": "library",
             "installation-source": "source",
             "autoload": {
