@@ -1,11 +1,13 @@
 <?php
 return array(
-    'cmf_routes' => array(
-        'welcome' => array(
-            'options' => array(
-                'defaults' => array(
-                    'controller' => 'Welcome\Controller\IndexController',
-                    'action' => 'index'
+    'ensemble_kernel' => array(
+        'routes' => array(
+            'welcome' => array(
+                'options' => array(
+                    'defaults' => array(
+                        'controller' => 'Welcome\Controller\IndexController',
+                        'action'     => 'index'
+                    ),
                 ),
             ),
         ),

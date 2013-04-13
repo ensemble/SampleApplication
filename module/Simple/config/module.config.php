@@ -41,12 +41,14 @@
  */
 
 return array(
-    'cmf_routes' => array(
-        'simple' => array(
-            'options' => array(
-                'defaults' => array(
-                    'controller' => 'Simple\Controller\IndexController',
-                    'action' => 'index'
+    'ensemble_kernel' => array(
+        'routes' => array(
+            'simple' => array(
+                'options' => array(
+                    'defaults' => array(
+                        'controller' => 'Simple\Controller\IndexController',
+                        'action'     => 'index'
+                    ),
                 ),
             ),
         ),
@@ -60,7 +62,7 @@ return array(
                     'route' => '/',
                     'defaults' => array(
                         'controller' => 'SimpleAdmin\Controller\IndexController',
-                        'action' => 'index'
+                        'action'     => 'index'
                     ),
                 ),
             ),
@@ -68,7 +70,7 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'Simple\Controller\IndexController' => 'Simple\Controller\IndexController',
+            'Simple\Controller\IndexController'      => 'Simple\Controller\IndexController',
             'SimpleAdmin\Controller\IndexController' => 'SimpleAdmin\Controller\IndexController',
         ),
     ),
