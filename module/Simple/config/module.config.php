@@ -54,15 +54,17 @@ return array(
         ),
     ),
 
-    'cmf_admin_routes' => array(
-        'simple' => array(
+    'ensemble_admin' => array(
+        'routes' => array(
             'simple' => array(
-                'type' => 'literal',
-                'options' => array(
-                    'route' => '/',
-                    'defaults' => array(
-                        'controller' => 'SimpleAdmin\Controller\IndexController',
-                        'action'     => 'index'
+                'simple' => array(
+                    'type' => 'literal',
+                    'options' => array(
+                        'route' => '/',
+                        'defaults' => array(
+                            'controller' => 'SimpleAdmin\Controller\IndexController',
+                            'action'     => 'index'
+                        ),
                     ),
                 ),
             ),
