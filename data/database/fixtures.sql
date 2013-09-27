@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Machine: localhost
--- Genereertijd: 14 Oct 2012 om 13:49
+-- Genereertijd: 27 Sept 2013 om 12:02
 -- Serverversie: 5.1.63
 -- PHP-Versie: 5.3.14
 
@@ -16,7 +16,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `zf2`
+-- Database: `sample_application`
 --
 
 --
@@ -24,9 +24,9 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 --
 
 INSERT INTO `page` (`id`, `parent_id`, `lft`, `lvl`, `rgt`, `root`, `order`, `visible`, `route`, `module`, `moduleId`) VALUES
-(1, NULL, 1, 1, 2, NULL, 1, 0, '/', 'welcome', 1),
-(2, NULL, 1, 1, 4, NULL, 2, 0, 'about', 'simple', 1),
-(3, 2, 2, 2, 3, 2, 2, 0, 'sub', 'simple', 2);
+(1, NULL, 1, 1, 2, NULL, 1, 1, '/', 'welcome', 1),
+(2, NULL, 1, 1, 4, NULL, 2, 1, 'about', 'simple', 1),
+(3, 2, 2, 2, 3, 2, 2, 1, 'sub', 'simple', 2);
 
 --
 -- Gegevens worden uitgevoerd voor tabel `page_metadata`

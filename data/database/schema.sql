@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Machine: localhost
--- Genereertijd: 14 Oct 2012 om 13:42
+-- Genereertijd: 27 Sept 2013 om 12:01
 -- Serverversie: 5.1.63
 -- PHP-Versie: 5.3.14
 
@@ -16,7 +16,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `zf2`
+-- Database: `sample_application`
 --
 
 -- --------------------------------------------------------
