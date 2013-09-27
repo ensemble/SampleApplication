@@ -18,7 +18,8 @@ This comes down to the following steps:
 
 ```
 cd path/to/projects
-git clone git://github.com/ensemble/SampleApplication.git; cd SampleApplication
+git clone git://github.com/ensemble/SampleApplication.git
+cd SampleApplication
 curl -s http://getcomposer.org/installer | php
 php composer.phar install
 ```
@@ -31,8 +32,8 @@ Do not forget to copy `doctrine_orm.local.php.dist` to `doctrine_orm.local.php` 
 Grab the contents of `data/database/schema.sql` and `data/database/fixtures.sql` and execute those statements for the database you want to use
 
 ```sql
-mysql -u your_username -p your_database < fixtures.sql
 mysql -u your_username -p your_database < schema.sql
+mysql -u your_username -p your_database < fixtures.sql
 ```
 
 4. Making it accessible
