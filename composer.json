@@ -1,9 +1,10 @@
 {
-    "minimum-stability": "dev",
     "require": {
-        "ensemble/kernel": "dev-master",
-        "ensemble/kernel-doctrine-orm": "dev-master",
-        "ensemble/utils": "dev-master",
-        "ensemble/admin": "dev-master"
+        "zendframework/zendframework": "~2.2",
+
+        "ensemble/kernel": "@dev",
+        "ensemble/kernel-doctrine-orm": "@dev",
+        "ensemble/utils": "@dev",
+        "ensemble/admin": "@dev"
     }
 }
